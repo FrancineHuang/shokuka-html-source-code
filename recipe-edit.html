@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>食華 - 本場の中華料理を探そう</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="中国人が作る本場中華料理のレシピシェアサービス。本場中華を作りたいならココ！作り方検索できる。本場中華料理が大好きな人は自分のレシピを作成し、公開できる。">
+    <meta name="keywords" content="食華,Shokuka,しょくか,本場中華,中華料理,中国料理,中華レシピ,レシピサービス,ChineseFood,Recipe">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+</head>
+<body>
+    <!--Headerはここから-->
+    <header>
+        <div class="container">
+          <div class="">
+            <div class="header-logo"></div>
+    
+            <form class="" role="search">
+              <input type="search" class="form-control" placeholder="サイト内検索" aria-label="Search">
+            </form>
+
+            <div class="dropdown">
+              <ul class="dropdown-menu">
+                <li>マイページ</li>
+                <li>下書きレシピ</li>
+                <li>設定</li>
+                <li><hr class="dropdown-divider"></li>
+                <li>ログアウト</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </header>
+    <!--Headerはここまで-->
+
+    <!--Mainはここから-->
+    <main>
+        <div class="recipe-container">
+            <p>レシピを作成する</p>
+            <div>
+                <p>クリックして料理の写真を載せる</p>
+                <p>レシピの完成写真をのせましょう。オリジナルでないものや料理以外のものはご遠慮ください。</p>
+            </div>
+            <p>※は必須項目です。</p>
+
+            <p>1.レシピタイトル<span>(※25字以内)</span></p>
+            <input type="text">
+
+            <p>2.キャッチコピー<span>(※200字以内)</span></p>
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+        </div>
+
+        <div class="recipe-container">
+            <p>3.材料<span>（※必須）</span></p>
+            <p>レシピの味が再現できるよう、材料（食材や調味料）とその分量を書いてください。<br>
+                ※分量を記載しにくい材料は「少々」や「適量」などで問題はありません。</p>
+            
+            <input type="text">
+            <p>例）2人分</p>
+
+            <div><p>材料・調味料</p></div>
+            <div><p>分量</p></div>
+            <input class="ingredient-input" type="text">
+            <input class="ingredient-input" type="text">
+
+            <input class="ingredient-input" type="text">
+            <input class="ingredient-input" type="text">
+
+            <p>行を追加する</p>
+        </div>
+
+        <div class="recipe-container">
+            <p>4.作り方<span>（※必須）</span></p>
+            <p>お料理初心者の方でもわかるよう、下ごしらえの方法や調理手順を書いてください。</p>
+            <p>STEP 1</p>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <p>削除</p>
+            <p>上へ移動</p>
+            <p>下へ移動</p>
+
+            <div>photo</div>
+            <p>※クリックして写真をアップロード</p>
+
+            <p>ステップを追加する</p>
+        </div>
+
+        <div class="recipe-container">
+            <p>5.コツ・ポイント<span>（※200字以内）</span></p>
+            <p>調理時の注意点や、おいしく作るコツなどを教えてください。</p>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="red-btn">公開</div>
+        <div class="white-btn">取消</div>
+    </main>
+    <!--Mainはここまで-->
+
+    <!--Footerはここから-->
+    <footer>
+      <div>
+          <p>お問い合わせ</p>
+          <p class="copyright">copyright<span>&copy;</span>2023 Francine Huang</p>
+      </div>
+    </footer>
+    <!--Footerはここまで-->
+    
+
+</body>
+</html>
