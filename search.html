@@ -25,7 +25,7 @@
           <button type="button" class="text-white bg-red-800 border-neutral-50 hover:bg-white hover:text-red-800 focus:ring-4 focus:outline-none focus:ring-neutral-50 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-5 md:mr-4">投稿する</button>
             <button type="button" class="flex mr-3 text-sm bg-neutral-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
               <span class="sr-only">Open user menu</span>
-              <img class="w-8 h-8 rounded-full" src="img/7e2331c1b74bace7ae53d64dd813e9c5.jpeg" alt="user photo">
+              <img class="w-8 h-8 rounded-full" src="https://i.pinimg.com/474x/a0/7c/4f/a07c4f179663ea3e663cdac4a7534b6b.jpg" alt="user photo">
             </button>
             
             <!-- Dropdown menu -->
@@ -77,28 +77,106 @@
 
     <!--Mainはここから-->
     <main>
-        <div class="search-wrapper">
-            <div class="search-title">
-                <p><span>「キーワード」</span>を含まれたレシピ：100件</p>
-            </div>
-            
-            <div class="search-card">
-                <p>レシピタイトル</p>
-                <p>By user12345678</p>
-
-                <!--お気に入りのリンクをハードのアイコンに変換する予定-->
-                <p>お気に入り</p>
-                
-                <img src="img/photo-icon.jpeg" alt="">
-            </div>
-
-            <!--ページ数の表示はここから-->
-            <!--ページ数の表示はここまで-->
+      <!--セクションタイトルはここから-->
+      <div class="container px-5 pt-24 pb-8 mx-auto flex flex-wrap w-full mb-3 mt-16">
+        <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+          <p class="sm:text-2xl text-2xl font-medium title-font mb-2 text-neutral-900">「キーワード」を含まれているレシピ：100件</p>
+          <div class="h-1 w-20 bg-red-800 rounded ml-9"></div>
         </div>
+      </div>
+      <!--セクションタイトルはここまで-->
+
+      <!--検索結果のカードはここから-->
+      <!--バックエンド側のロジックを追加してください-->
+      <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div class="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
+          <div class="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
+            <img src="https://i.pinimg.com/564x/07/fc/15/07fc15fe60f7b2bade7ae6f3a8d29012.jpg" class="object-cover w-full h-64" alt="" />
+            <div class="p-5 border border-t-0">
+              <p class="mb-3 text-xs font-semibold tracking-wide uppercase">
+                <a href="/" class="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700" aria-label="Category" title="traveling">Uncle Roger</a>
+                <span class="text-gray-600">— 28 Dec 2020</span>
+              </p>
+              <a href="/" aria-label="Category" title="Visit the East" class="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700">本格中華チャーハン</a>
+              <p class="mb-2 text-gray-700">
+                Sed ut perspiciatis unde omnis iste natus error sit sed quia consequuntur magni voluptatem doloremque.
+              </p>
+              <a href="/" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">詳しくみる</a>
+            </div>
+          </div>
+          <div class="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
+            <img src="https://i.pinimg.com/564x/32/f1/04/32f1040d86f3f379a737ff7e3ce26648.jpg" class="object-cover w-full h-64" alt="" />
+            <div class="p-5 border border-t-0">
+              <p class="mb-3 text-xs font-semibold tracking-wide uppercase">
+                <a href="/" class="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700" aria-label="Category" title="traveling">Auntie Hersha</a>
+                <span class="text-gray-600">— 28 Dec 2020</span>
+              </p>
+              <a href="/" aria-label="Category" title="Simple is better" class="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700">中華野菜と肉の炒め</a>
+              <p class="mb-2 text-gray-700">
+                Sed ut perspiciatis unde omnis iste natus error sit sed quia consequuntur magni voluptatem doloremque.
+              </p>
+              <a href="/" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">詳しくみる</a>
+            </div>
+          </div>
+          <div class="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
+            <img src="https://i.pinimg.com/564x/51/48/a5/5148a50942a0be90fecb6c7556f1df7e.jpg" class="object-cover w-full h-64" alt="" />
+            <div class="p-5 border border-t-0">
+              <p class="mb-3 text-xs font-semibold tracking-wide uppercase">
+                <a href="/" class="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700" aria-label="Category" title="traveling">四川激辛主婦</a>
+                <span class="text-gray-600">— 28 Dec 2020</span>
+              </p>
+              <a href="/" aria-label="Category" title="Film It!" class="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700">本格！四川風マーポー豆腐</a>
+              <p class="mb-2 text-gray-700">
+                Sed ut perspiciatis unde omnis iste natus error sit sed quia consequuntur magni voluptatem doloremque.
+              </p>
+              <a href="/" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">詳しくみる</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--検索結果のカードはここまで-->
+
+      <!--ページ数の表示はここから-->
+      <!--バックエンド側のロジックを追加してください-->
+        <nav aria-label="Page navigation example" class="grid place-items-center pb-20">
+          <ul class="inline-flex items-center -space-x-px">
+            <li>
+              <a href="#" class="block px-3 py-2 ml-0 leading-tight text-gray-500 bg-white border border-gray-300 rounded-l-lg hover:bg-gray-100 hover:text-gray-700">
+                <span class="sr-only">Previous</span>
+                <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700">1</a>
+            </li>
+            <li>
+              <a href="#" class="px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700">2</a>
+            </li>
+            <!--選択されたページを赤色の背景に強調する。条件文の追加が必要-->
+            <li>
+              <a href="#" aria-current="page" class="z-10 px-3 py-2 leading-tight text-red-600 border border-red-300 bg-red-50 hover:bg-red-100 hover:text-red-700">3</a>
+            </li>
+            <!--選択されたページを赤色の背景に強調する。条件文の追加が必要-->
+            <li>
+              <a href="#" class="px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700">4</a>
+            </li>
+            <li>
+              <a href="#" class="px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700">5</a>
+            </li>
+            <li>
+              <a href="#" class="block px-3 py-2 leading-tight text-gray-500 bg-white border border-gray-300 rounded-r-lg hover:bg-gray-100 hover:text-gray-700">
+                <span class="sr-only">Next</span>
+                <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      <!--ページ数の表示はここまで-->
+      
     </main>
     <!--Mainはここまで-->
 
-    <!--Footerはここから-->
+    <!--＊＊＊共通Footerはここから＊＊＊-->
     <footer class="bg-red-800">
       <div class="mx-auto flex w-full max-w-7xl flex-col items-center px-4 py-12 sm:items-start">
         <div class="text-neutral-50 text-2xl">
@@ -129,7 +207,7 @@
         </nav>
       </div>
     </footer>
-    <!--Footerはここまで-->
+    <!--＊＊＊共通Footerはここまで＊＊＊-->
     
 
 </body>
